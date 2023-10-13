@@ -1,4 +1,4 @@
-package ml.empee.templateplugin.utils.helpers;
+package ml.empee.economy.utils.helpers;
 
 
 import ml.empee.itembuilder.ItemBuilder;

@@ -1,4 +1,4 @@
-package ml.empee.templateplugin.repositories;
+package ml.empee.economy.repositories;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -9,8 +9,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 import lombok.SneakyThrows;
-import ml.empee.templateplugin.config.client.DbClient;
-import ml.empee.templateplugin.model.entities.Entity;
+import ml.empee.economy.config.client.DbClient;
+import ml.empee.economy.model.entities.Entity;
 
 /**
  * AbstractRepository

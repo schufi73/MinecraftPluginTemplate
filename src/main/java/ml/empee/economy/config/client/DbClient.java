@@ -1,4 +1,4 @@
-package ml.empee.templateplugin.config.client;
+package ml.empee.economy.config.client;
 
 import java.io.File;
 import java.sql.Connection;
@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import lombok.Getter;
 import lombok.SneakyThrows;
-import ml.empee.templateplugin.utils.Logger;
+import ml.empee.economy.utils.Logger;
 import mr.empee.lightwire.annotations.Singleton;
 
 /**

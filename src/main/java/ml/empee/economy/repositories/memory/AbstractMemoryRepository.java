@@ -1,12 +1,12 @@
-package ml.empee.templateplugin.repositories.memory;
+package ml.empee.economy.repositories.memory;
 
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Optional;
 import java.util.TreeMap;
 
-import ml.empee.templateplugin.model.entities.Entity;
-import ml.empee.templateplugin.repositories.AbstractRepository;
+import ml.empee.economy.model.entities.Entity;
+import ml.empee.economy.repositories.AbstractRepository;
 
 /**
  * FULL In-Memory repository with async persistence

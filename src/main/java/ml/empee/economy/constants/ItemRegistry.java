@@ -1,9 +1,9 @@
-package ml.empee.templateplugin.constants;
+package ml.empee.economy.constants;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
 import lombok.RequiredArgsConstructor;
-import ml.empee.templateplugin.config.LangConfig;
+import ml.empee.economy.config.LangConfig;
 import mr.empee.lightwire.annotations.Instance;
 import mr.empee.lightwire.annotations.Singleton;
 

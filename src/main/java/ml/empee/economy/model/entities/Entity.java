@@ -1,4 +1,4 @@
-package ml.empee.templateplugin.model.entities;
+package ml.empee.economy.model.entities;
 
 /**
  * Entity

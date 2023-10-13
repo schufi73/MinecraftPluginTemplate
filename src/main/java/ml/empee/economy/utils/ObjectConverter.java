@@ -1,4 +1,4 @@
-package ml.empee.templateplugin.utils;
+package ml.empee.economy.utils;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

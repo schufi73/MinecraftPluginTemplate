@@ -17,13 +17,13 @@ if (project.hasProperty("tag")) {
   version = "develop"
 }
 
-var basePackage = "ml.empee.template"
+var basePackage = "ml.empee.economy"
 
 bukkit {
-  load = BukkitPluginDescription.PluginLoadOrder.POSTWORLD
-  main = "${basePackage}.TemplatePlugin"
+  load = BukkitPluginDescription.PluginLoadOrder.STARTUP
+  main = "${basePackage}.JarVault"
   apiVersion = "1.13"
-  depend = listOf("Vault")
+  depend = listOf()
   authors = listOf("Mr. EmPee")
 }
 
@@ -44,8 +44,6 @@ dependencies {
   compileOnly("org.jetbrains:annotations:24.0.1")
   compileOnly("org.xerial:sqlite-jdbc:3.34.0")
 
-  compileOnly("com.github.MilkBowl:VaultAPI:1.7")  { isTransitive = false }
-
   // Core depends
   implementation("com.github.Mr-EmPee:LightWire:1.0.0")
 
@@ -57,12 +55,8 @@ dependencies {
   implementation("cloud.commandframework:cloud-annotations:1.8.3")
 
   // Utilities
-  implementation("com.github.Mr-EmPee:SimpleMenu:0.0.6")
+  implementation("com.github.Mr-EmPee:SimpleMenu:0.0.10")
   implementation("com.github.Mr-EmPee:ItemBuilder:1.1.3")
-
-  //implementation("org.cloudburstmc:nbt:3.0.1.Final")
-  //implementation("com.github.Mr-EmPee:SimpleHeraut:1.0.1")
-  //implementation("com.github.cryptomorin:XSeries:9.4.0")
 }
 
 tasks {
